@@ -1,0 +1,161 @@
+<style>
+body {
+  font-family: ramaraja, sans-sarif;
+}
+section {
+  background: white;
+  border: solid black 1px;
+}
+.hero {
+  background-color: #1c1d25;
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+}
+footer {
+  height: 500px;
+  background: black;
+  color: white;
+  text-align: center;
+  height: 100%;
+  padding: 80px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+li {
+  /* width: 200px;*/
+  text-decoration: none;
+}
+h1 {
+  font-size: 90px;
+  margin: 0px;
+}
+h2 {
+  font-size: 50px;
+}
+.hero-text {
+  margin-left: 40px;
+  margin-top: 130px;
+  diplay: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  width: 200px;
+  height: 40px;
+  background-color: coral;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-wight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+.button:hover {
+  background-color: #ef744b;
+}
+.button:active {
+  background-color: #a9a9a9;
+  color: #808080;
+}
+p {
+  margin: 0px;
+  font-weight: 100;
+  font-size: 30px;
+}
+.subtext {
+  font-size: 15px;
+  font-weight: 300;
+}
+.hero-area {
+  diplay: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  }
+.socials {
+  position: relative;
+  bottom: 30vmin;
+  justify-content: center;
+}
+.logo {
+ height: 100px; 
+}
+.social {
+  position: relative;
+  left: 93%;
+}
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+.sub-section-alternative {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+.headshot {
+  border-radius: 50%;
+  height: 200px;
+}
+.head-container {
+  align-items: center;
+}
+.project-card {
+  height: 400px;
+  width: 160px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 5%;
+}
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 400px;) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.project-image {
+  /*add when images are available*/
+}
+#project-one-image {
+  height: 150px;
+  border-radius: 50%;
+}
+#project-two-image {
+  height: 125px;
+}
+#project-three-image {
+  height: 125px;
+}
+#project-four-image {
+  height: 150px;
+  border-radius: 50%;
+}
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+a:hover {
+  color: red;
+}
+a {
+  color: #aaaaaa;
+}
+
+</style>
